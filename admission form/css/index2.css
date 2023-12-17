@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+}
+.admission-form{
+    height: 800px;
+    width: 650px;
+    background-color: lightblue;
+    border: 5px solid black ;
+    padding: 20px;
+ margin: 0 auto;  
+ background-image: url(/im.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image: transparent;
+ 
+}
+h2{
+    background-image: url(/flw.jpeg); 
+    background-repeat: repeat; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    /* margin-top: 200px;  */
+    font-size:70px; 
+    text-align: center; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    font-family: 'Steelfish Rg', 'helvetica neue', 
+                helvetica, arial, sans-serif; 
+    font-weight: 800; 
+    -webkit-font-smoothing: antialiased;
+}
+.left-form{
+    width: 50%;
+    float: left;
+}
+.right-form{
+width: 50%;
+float: left;
+
+}
+.admission-form h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    text-decoration: underline;
+    color: white;
+
+}
+.admission-form form{}
+.form-part{
+    width: 100%;
+    float: left;
+}
+.form-part label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px 0px;
+}
+.form-part input{
+    width: 80%;
+    padding: 8px 20px;
+}
+.form-part input[type="radio"]{
+    width: 10%;
+}
+.form-part select{
+    width: 95%;
+    padding: 8px 20px;
+}
+.form-part option{}
+
+.admission-form button{
+    padding: 8px 30px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
